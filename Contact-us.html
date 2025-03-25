@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact</title>
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!--    Font awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--    Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <main>
+      <!--    header section start-->
+      <section id="hero" style="background-image: unset">
+        <div class="container position-relative">
+          <div class="bg_set position-absolute"></div>
+          <!--            hero section header-->
+          <header class="header_logo d-flex justify-content-center">
+            <a href="">
+              <img
+                src="assets/brand_logo.svg"
+                class="brand_logo py-3 d-none d-xl-block"
+                alt="crafted-brand-logo"
+              />
+            </a>
+          </header>
+          <!--            hero section navbar-->
+          <div class="hero_navigation">
+            <nav class="navbar navbar-expand-xl p-1">
+              <button
+                class="navbar-toggler"
+                onclick="myFunction()"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <span><img src="assets/icon/Vector.svg" alt="" /></span>
+              </button>
+              <a class="navbar-brand m-0" href="#"
+                ><img src="assets/brand_logo.svg" alt="" width="80px"
+              /></a>
+              <div class="login_signup_mobile">
+                <ul class="mb-0 user_guide_responsive d-flex">
+                  <li class="login_nav">
+                    <a class="nav-link" href="#">Log in </a>
+                  </li>
+                  <li class="sign_up_nav">
+                    <a class="nav-link" href="#">Sign up </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Consultations
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Urgent Care <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Allergies</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Covid 19</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#">Flu</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Cold Sore</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Motion Sickness</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#">
+                              Sinus Infection
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Thrush (Oral)
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#">UTI </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Pink Eye/Style</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >STD (Sexually Transmitted Diseases)
+                          <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Chlamydia</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Gonorrhea</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Trichomoniasis</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Herpes</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Mycoplasma</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Urethritis</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Ureaplasma</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Men's Health <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >UTI (Men)
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Jock Itch</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Balanitis</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Women's Health <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >UTI (Women)</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Vaginal Yeast Infection</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Bacterial Vaginosis</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Chronic Diseases <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#">Gout</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Asthma</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Migrane</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Weight Loss Rx</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Insomnia</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >High Cholesteral</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >DMS Type 2 Meds</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Smoking Cessation</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Nypothyroclism</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Psychiatry <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#">ADHD</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Depression</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >General Anxiety</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Panic D/O</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Social Anxiety
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Derm <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Lice</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Shingles</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Psoraisis</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Eczema</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Acne</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Poison Ivy</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Scabies Tx</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Abscess (Boil)
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="index.html"
+                              >Athlete's Foot</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Miscellaneous <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Clearance / Return to
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Medical Excuse</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle ps-0" href="#"
+                          >Travel Health <i class="fas">&#xf105;</i></a
+                        >
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Travel immunization
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-wrap" href="#"
+                              >Vaccination</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenuLink1"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >STD
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Chlamydia
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Gonorrhea
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Trichomoniasis
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Herpes
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Mycoplasma
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Urethritis
+                        </a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a
+                          class="dropdown-item dropdown-toggle ps-0 text-wrap"
+                          href="#"
+                          >Ureaplasma
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Prescription Refill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Lab Tests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Travel Health</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How it works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav user_log p-1">
+                  <li class="login_nav">
+                    <a class="nav-link" href="#">Log in </a>
+                  </li>
+                  <li class="sign_up_nav">
+                    <a class="nav-link" href="#">Sign up </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- mobile view navbar -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade container-fluid p-0"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+              data-backdrop="false"
+            >
+              <div class="modal-dialog m-0">
+                <div
+                  class="modal-content overflow-auto border-0 rounded-0"
+                  style="height: 100vh"
+                >
+                  <div class="container">
+                    <div
+                      class="d-flex justify-content-between align-items-center my-3"
+                    >
+                      <a href="">
+                        <img src="assets/brand_logo.svg" alt="" width="150px" />
+                      </a>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="navbar_res_content p-3">
+                      <div
+                        class="accordion accordion-flush"
+                        id="accordionFlushExample"
+                      >
+                        <div class="accordion-item border-0">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button
+                              class="accordion-button collapsed fw-semibold justify-content-center rounded-4 text-center position-relative"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseOne"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseOne"
+                            >
+                              Consultations
+                              <svg
+                                width="14"
+                                height="10"
+                                viewBox="0 0 14 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="position-absolute navigation_icon"
+                              >
+                                <path
+                                  d="M1 5H13M13 5L9.57143 9M13 5L9.57143 1"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body py-1">
+                              <!--                                                    nested menu-->
+                              <div
+                                class="accordion accordion-flush nested_menu"
+                                id="nested-1"
+                              >
+                                <div class="accordion-item border-0">
+                                  <h2
+                                    class="accordion-header"
+                                    id="flush-headingOne1"
+                                  >
+                                    <button
+                                      class="accordion-button collapsed fw-semibold justify-content-center nested_arrow text-center position-relative"
+                                      type="button"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target="#flush-collapseOne1"
+                                      aria-expanded="false"
+                                      aria-controls="flush-collapseOne1"
+                                    >
+                                      Allergies
+                                      <svg
+                                        width="14"
+                                        height="10"
+                                        viewBox="0 0 14 10"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="position-absolute navigation_icon"
+                                      >
+                                        <path
+                                          d="M1 5H13M13 5L9.57143 9M13 5L9.57143 1"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                        />
+                                      </svg>
+                                    </button>
+                                  </h2>
+                                  <div
+                                    id="flush-collapseOne1"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne1"
+                                    data-bs-parent="#nested-1"
+                                  >
+                                    <div class="accordion-body my-0">
+                                      <!--                                                                    nested-1-1-->
+                                      <div
+                                        class="accordion accordion-flush nested_menu_1"
+                                        id="nested1-1"
+                                      >
+                                        <div
+                                          class="d-flex flex-column p-3 acordian_nested-1-1"
+                                        >
+                                          <a
+                                            href="#"
+                                            class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                            >Chlamydia</a
+                                          >
+                                          <a
+                                            href="#"
+                                            class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                            >Gonorrhea</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                  <h2
+                                    class="accordion-header"
+                                    id="flush-headingtwo2"
+                                  >
+                                    <button
+                                      class="accordion-button collapsed fw-semibold justify-content-center nested_arrow text-center position-relative"
+                                      type="button"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target="#flush-collapsetwo2"
+                                      aria-expanded="false"
+                                      aria-controls="flush-collapsetwo2"
+                                    >
+                                      Covid 19
+                                      <svg
+                                        width="14"
+                                        height="10"
+                                        viewBox="0 0 14 10"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="position-absolute navigation_icon"
+                                      >
+                                        <path
+                                          d="M1 5H13M13 5L9.57143 9M13 5L9.57143 1"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                        />
+                                      </svg>
+                                    </button>
+                                  </h2>
+                                  <div
+                                    id="flush-collapsetwo2"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingtwo2"
+                                    data-bs-parent="#nested-1"
+                                  >
+                                    <div class="accordion-body my-0">
+                                      <!--                                                                    nested-1-1-->
+                                      <div
+                                        class="accordion accordion-flush nested_menu_1"
+                                        id="nested1-1"
+                                      >
+                                        <div
+                                          class="d-flex flex-column p-3 acordian_nested-1-1"
+                                        >
+                                          <a
+                                            href="#"
+                                            class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                            >Chlamydia</a
+                                          >
+                                          <a
+                                            href="#"
+                                            class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                            >Gonorrhea</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                          <h2 class="accordion-header" id="flush-headingtwo">
+                            <button
+                              class="accordion-button collapsed fw-semibold justify-content-center rounded-4 text-center position-relative"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapsetwo"
+                              aria-expanded="false"
+                              aria-controls="flush-collapsetwo"
+                            >
+                              STD
+                              <svg
+                                width="14"
+                                height="10"
+                                viewBox="0 0 14 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="position-absolute navigation_icon"
+                              >
+                                <path
+                                  d="M1 5H13M13 5L9.57143 9M13 5L9.57143 1"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapsetwo"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingtwo"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body py-1">
+                              <!--                                                    nested menu-->
+                              <div class="d-flex flex-column nested_menu">
+                                <a
+                                  href="#"
+                                  class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                  >Chlamydia</a
+                                >
+                                <a
+                                  href="#"
+                                  class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                                  >Gonorrhea</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >Prescription Refill</a
+                        >
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >Lab Tests
+                        </a>
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >Travel Health</a
+                        >
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >How it works</a
+                        >
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >Testimonial</a
+                        >
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >About Us</a
+                        >
+                        <a
+                          href="#"
+                          class="text-center fw-semibold py-3 nested_menu_link rounded-4"
+                          >Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--    header section end-->
+
+      <!--   Contact-us section start-->
+      <section id="contact">
+        <h2 class="primary_color text-center my-4 my-sm-5 fw-bolder">
+          Contact us
+        </h2>
+        <div class="container mb-5">
+          <div class="row row-cols-1 row-cols-md-2 rounded-4 contact_row m-0">
+            <div class="col contact_bg px-3 mx-md-0">
+              <div
+                class="d-flex flex-column justify-content-between h-100 px-0 py-4 p-sm-4"
+              >
+                <h1 class="text-white fw-bolder">
+                  Contact us for any information
+                </h1>
+                <div class="row flex-wrap flex-md-nowrap">
+                  <div class="col-9 col-md-10 col-lg-9 col-xl-6 text-white">
+                    <div class="d-flex align-items-center gap-2 gap-sm-4 mb-4">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 58 58"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M41.4788 39.0414C40.3458 37.9088 38.8093 37.2725 37.2073 37.2725C35.6053 37.2725 34.0688 37.9088 32.9358 39.0414L32.0054 39.9694C26.9414 35.7246 22.2601 31.0433 18.0153 25.9793L18.9458 25.0489C19.5069 24.4878 19.9521 23.8217 20.2558 23.0886C20.5596 22.3555 20.7159 21.5698 20.7159 20.7762C20.7159 19.9827 20.5596 19.1969 20.2558 18.4638C19.9521 17.7307 19.5069 17.0646 18.9458 16.5036L13.8176 11.3778C12.6846 10.2452 11.1482 9.60889 9.54613 9.60889C7.9441 9.60889 6.40765 10.2452 5.27467 11.3778L2.46167 14.1908C1.09109 15.5719 0.236968 17.3821 0.0424907 19.3181C-0.151987 21.2541 0.325008 23.1981 1.39351 24.8241C9.75634 37.4247 20.5547 48.2255 33.1533 56.5912C34.7841 57.6458 36.7249 58.1145 38.6572 57.9204C40.5895 57.7263 42.3983 56.8809 43.7867 55.5231L46.6021 52.7101C47.7347 51.5771 48.371 50.0406 48.371 48.4386C48.371 46.8366 47.7347 45.3001 46.6021 44.1671L41.4788 39.0414Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M27.7839 0C27.1429 0 26.5282 0.254612 26.075 0.707825C25.6218 1.16104 25.3672 1.77573 25.3672 2.41667C25.3672 3.05761 25.6218 3.6723 26.075 4.12551C26.5282 4.57872 27.1429 4.83333 27.7839 4.83333C34.5114 4.84101 40.9611 7.5169 45.7182 12.274C50.4753 17.031 53.1512 23.4808 53.1589 30.2083C53.1589 30.8493 53.4135 31.464 53.8667 31.9172C54.3199 32.3704 54.9346 32.625 55.5755 32.625C56.2165 32.625 56.8312 32.3704 57.2844 31.9172C57.7376 31.464 57.9922 30.8493 57.9922 30.2083C57.9826 22.1995 54.7969 14.5215 49.1338 8.85841C43.4707 3.19533 35.7927 0.00959331 27.7839 0Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M27.7839 14.4998C31.9484 14.505 35.9409 16.1616 38.8857 19.1064C41.8304 22.0511 43.4871 26.0436 43.4922 30.2082C43.4922 30.8491 43.7468 31.4638 44.2 31.917C44.6532 32.3702 45.2679 32.6248 45.9089 32.6248C46.5498 32.6248 47.1645 32.3702 47.6177 31.917C48.0709 31.4638 48.3255 30.8491 48.3255 30.2082C48.3191 24.7621 46.1529 19.541 42.3019 15.6901C38.451 11.8392 33.2299 9.6729 27.7839 9.6665C27.1429 9.6665 26.5282 9.92112 26.075 10.3743C25.6218 10.8275 25.3672 11.4422 25.3672 12.0832C25.3672 12.7241 25.6218 13.3388 26.075 13.792C26.5282 14.2452 27.1429 14.4998 27.7839 14.4998Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M27.7839 24.1668C29.3862 24.1668 30.9229 24.8034 32.056 25.9364C33.189 27.0694 33.8255 28.6061 33.8255 30.2085C33.8255 30.8494 34.0801 31.4641 34.5333 31.9173C34.9866 32.3706 35.6012 32.6252 36.2422 32.6252C36.8831 32.6252 37.4978 32.3706 37.951 31.9173C38.4042 31.4641 38.6589 30.8494 38.6589 30.2085C38.6557 27.3252 37.5089 24.561 35.4701 22.5222C33.4313 20.4835 30.6671 19.3367 27.7839 19.3335C27.1429 19.3335 26.5282 19.5881 26.075 20.0413C25.6218 20.4945 25.3672 21.1092 25.3672 21.7502C25.3672 22.3911 25.6218 23.0058 26.075 23.459C26.5282 23.9122 27.1429 24.1668 27.7839 24.1668Z"
+                          fill="white"
+                        />
+                      </svg>
+                      <p class="mb-0 fs-5">
+                        Phone no<br /><span class="fs-6">+1 732-979-0439</span>
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 gap-sm-4">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 64 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.92116 3.18455C4.61344 4.07684 28.1206 16.892 28.9976 17.3535C29.8745 17.815 30.7668 18.0304 32.1513 18.0304C33.5359 18.0304 34.4282 17.815 35.3051 17.3535C36.182 16.892 59.6892 4.07684 61.3815 3.18455C62.0123 2.86148 63.0738 2.27688 63.3046 1.61535C63.7045 0.446145 63.2738 0 61.5661 0H32.1513H2.73655C1.0289 0 0.598135 0.461529 0.998127 1.61535C1.22889 2.29226 2.29041 2.86148 2.92116 3.18455Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M62.7218 3.87669C61.4603 4.52283 50.1374 12.5842 42.6453 17.4303L55.2912 31.6607C55.5989 31.9684 55.7373 32.3376 55.5681 32.5223C55.3835 32.6915 54.9835 32.5992 54.6604 32.3069L39.4915 19.5071C37.1992 20.984 35.5839 21.9994 35.307 22.1532C34.1224 22.7532 33.2916 22.8301 32.1532 22.8301C31.0148 22.8301 30.184 22.7532 28.9994 22.1532C28.7071 21.9994 27.1071 20.984 24.8149 19.5071L9.64596 32.3069C9.33827 32.6146 8.9229 32.7069 8.73828 32.5223C8.55367 32.353 8.69213 31.9684 8.99982 31.6607L21.6303 17.4303C14.1382 12.5842 2.69225 4.52283 1.43074 3.87669C0.0769214 3.1844 0 3.99977 0 4.63052C0 5.26128 0 36.1683 0 36.1683C0 37.5991 2.10765 39.3837 3.61531 39.3837H32.1532H60.6911C62.1987 39.3837 63.9987 37.5837 63.9987 36.1683C63.9987 36.1683 63.9987 5.24589 63.9987 4.63052C63.9987 3.98438 64.091 3.1844 62.7218 3.87669Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <p class="mb-0 fs-5">
+                        Phone no<br /><span class="fs-6">+1 732-979-0439</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="col-3 col-md-2 col-lg-3 col-xl-6 d-flex justify-content-end align-items-end"
+                  >
+                    <div class="d-flex flex-column gap-3">
+                      <a href="">
+                        <svg
+                          width="35"
+                          height="35"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M40 20C40 8.96 31.04 0 20 0C8.96 0 0 8.96 0 20C0 29.68 6.88 37.74 16 39.6V26H12V20H16V15C16 11.14 19.14 8 23 8H28V14H24C22.9 14 22 14.9 22 16V20H28V26H22V39.9C32.1 38.9 40 30.38 40 20Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+
+                      <a href="">
+                        <svg
+                          width="35"
+                          height="35"
+                          viewBox="0 0 42 42"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M21 0C9.40313 0 0 9.40313 0 21C0 32.5969 9.40313 42 21 42C32.5969 42 42 32.5969 42 21C42 9.40313 32.5969 0 21 0ZM31.0922 15.8297C31.1062 16.05 31.1062 16.2797 31.1062 16.5047C31.1062 23.3859 25.8656 31.3125 16.2891 31.3125C13.3359 31.3125 10.5984 30.4547 8.29219 28.9781C8.71406 29.025 9.11719 29.0437 9.54844 29.0437C11.9859 29.0437 14.2266 28.2188 16.0125 26.8219C13.725 26.775 11.8031 25.275 11.1469 23.2125C11.9484 23.3297 12.6703 23.3297 13.4953 23.1188C12.3175 22.8795 11.2588 22.2398 10.4991 21.3084C9.73949 20.377 9.32572 19.2113 9.32812 18.0094V17.9437C10.0172 18.3328 10.8281 18.5719 11.6766 18.6047C10.9633 18.1293 10.3784 17.4854 9.97365 16.7298C9.5689 15.9743 9.35683 15.1306 9.35625 14.2734C9.35625 13.3031 9.60938 12.4172 10.0641 11.6484C11.3714 13.2578 13.0028 14.5741 14.8522 15.5117C16.7016 16.4493 18.7275 16.9873 20.7984 17.0906C20.0625 13.5516 22.7063 10.6875 25.8844 10.6875C27.3844 10.6875 28.7344 11.3156 29.6859 12.3281C30.8625 12.1078 31.9875 11.6672 32.9906 11.0766C32.6016 12.2812 31.7859 13.2984 30.7031 13.9406C31.7531 13.8281 32.7656 13.5375 33.7031 13.1297C32.9953 14.1703 32.1094 15.0938 31.0922 15.8297Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+
+                      <a href="">
+                        <svg
+                          width="35"
+                          height="35"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29 0.5H11C8.21614 0.502978 5.54715 1.61018 3.57867 3.57867C1.61018 5.54715 0.502978 8.21614 0.5 11V29C0.502978 31.7839 1.61018 34.4528 3.57867 36.4213C5.54715 38.3898 8.21614 39.497 11 39.5H29C31.7839 39.497 34.4528 38.3898 36.4213 36.4213C38.3898 34.4528 39.497 31.7839 39.5 29V11C39.497 8.21614 38.3898 5.54715 36.4213 3.57867C34.4528 1.61018 31.7839 0.502978 29 0.5ZM20 29C18.22 29 16.4799 28.4722 14.9999 27.4832C13.5198 26.4943 12.3663 25.0887 11.6851 23.4442C11.0039 21.7996 10.8257 19.99 11.1729 18.2442C11.5202 16.4984 12.3774 14.8947 13.636 13.636C14.8947 12.3774 16.4984 11.5202 18.2442 11.1729C19.99 10.8257 21.7996 11.0039 23.4442 11.6851C25.0887 12.3663 26.4943 13.5198 27.4832 14.9999C28.4722 16.4799 29 18.22 29 20C28.9975 22.3862 28.0485 24.6739 26.3612 26.3612C24.6739 28.0485 22.3862 28.9975 20 29ZM31.25 11C30.805 11 30.37 10.868 30 10.6208C29.63 10.3736 29.3416 10.0222 29.1713 9.61104C29.001 9.1999 28.9564 8.7475 29.0432 8.31105C29.13 7.87459 29.3443 7.47368 29.659 7.15901C29.9737 6.84434 30.3746 6.63005 30.811 6.54323C31.2475 6.45642 31.6999 6.50097 32.111 6.67127C32.5222 6.84157 32.8736 7.12996 33.1208 7.49997C33.368 7.86998 33.5 8.30499 33.5 8.75C33.5 9.34674 33.2629 9.91903 32.841 10.341C32.419 10.7629 31.8467 11 31.25 11ZM26 20C26 21.1867 25.6481 22.3467 24.9888 23.3334C24.3295 24.3201 23.3925 25.0892 22.2961 25.5433C21.1997 25.9974 19.9933 26.1162 18.8295 25.8847C17.6656 25.6532 16.5965 25.0818 15.7574 24.2426C14.9182 23.4035 14.3468 22.3344 14.1153 21.1705C13.8838 20.0067 14.0026 18.8003 14.4567 17.7039C14.9108 16.6075 15.6799 15.6705 16.6666 15.0112C17.6533 14.3519 18.8133 14 20 14C21.5913 14 23.1174 14.6321 24.2426 15.7574C25.3679 16.8826 26 18.4087 26 20Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-3">
+              <div class="mb-3">
+                <label for="name" class="form-label"
+                  >Your name :<span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control py-3"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"
+                  >Email:<span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control py-3"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label"
+                  >Phone no:<span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control py-3"
+                  id="phone"
+                  placeholder="Phone no"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label"
+                  >Subject:<span class="text-danger">*</span></label
+                >
+                <textarea
+                  class="form-control py-3"
+                  id="subject"
+                  rows="3"
+                  placeholder="....."
+                ></textarea>
+              </div>
+              <button
+                type="button"
+                class="btn btn-primary w-100 primary_bg-color py-2"
+              >
+                Primary
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--   Contact-us section end-->
+
+      <!-- footer section start -->
+      <section id="footer">
+        <footer>
+          <div class="container-fluid">
+            <div class="container">
+              <div class="row text-center text-md-start gap-5 gap-md-0">
+                <div class="col-md-4 col-xl-4 col-xxl-4">
+                  <a href="">
+                    <img
+                      src="assets/brand_logo.svg"
+                      class="mb-4"
+                      width="123px"
+                      alt="footer_brand_logo"
+                    />
+                  </a>
+                  <p class="mb-5 lh-lg wow animate__fadeInUp animated">
+                    We are an organization that set out to bridge the gap
+                    between patients and access to affordable healthcare
+                    services.
+                  </p>
+                  <div
+                    class="d-flex gap-3 mt-3 justify-content-center justify-content-md-start"
+                  >
+                    <a href="" class="wow animate__fadeInUp animated">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0 20.1117C0 30.055 7.22167 38.3233 16.6667 40V25.555H11.6667V20H16.6667V15.555C16.6667 10.555 19.8883 7.77833 24.445 7.77833C25.8883 7.77833 27.445 8 28.8883 8.22167V13.3333H26.3333C23.8883 13.3333 23.3333 14.555 23.3333 16.1117V20H28.6667L27.7783 25.555H23.3333V40C32.7783 38.3233 40 30.0567 40 20.1117C40 9.05 31 0 20 0C9 0 0 9.05 0 20.1117Z"
+                          fill="#404040"
+                        />
+                      </svg>
+                    </a>
+                    <a href="" class="wow animate__fadeInUp animated">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20 0C8.95536 0 0 8.95536 0 20C0 31.0446 8.95536 40 20 40C31.0446 40 40 31.0446 40 20C40 8.95536 31.0446 0 20 0ZM29.6116 15.0759C29.625 15.2857 29.625 15.5045 29.625 15.7188C29.625 22.2723 24.6339 29.8214 15.5134 29.8214C12.7009 29.8214 10.0938 29.0045 7.89732 27.5982C8.29911 27.6429 8.68304 27.6607 9.09375 27.6607C11.4152 27.6607 13.5491 26.875 15.25 25.5446C13.0714 25.5 11.2411 24.0714 10.6161 22.1071C11.3795 22.2188 12.067 22.2188 12.8527 22.0179C11.7309 21.79 10.7227 21.1807 9.99918 20.2937C9.2757 19.4066 8.88164 18.2965 8.88393 17.1518V17.0893C9.54018 17.4598 10.3125 17.6875 11.1205 17.7188C10.4413 17.266 9.88419 16.6527 9.49871 15.9332C9.11323 15.2136 8.91127 14.4101 8.91072 13.5938C8.91072 12.6696 9.15179 11.8259 9.58482 11.0938C10.8299 12.6265 12.3836 13.8801 14.1449 14.7731C15.9062 15.666 17.8358 16.1784 19.808 16.2768C19.1071 12.9063 21.625 10.1786 24.6518 10.1786C26.0804 10.1786 27.3661 10.7768 28.2723 11.7411C29.3929 11.5312 30.4643 11.1116 31.4196 10.5491C31.0491 11.6964 30.2723 12.6652 29.2411 13.2768C30.2411 13.1696 31.2054 12.8929 32.0982 12.5045C31.4241 13.4955 30.5804 14.375 29.6116 15.0759Z"
+                          fill="#404040"
+                        />
+                      </svg>
+                    </a>
+                    <a href="" class="wow animate__fadeInUp animated">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M24.715 10.5033C23.485 10.4467 23.115 10.4367 20 10.4367C16.885 10.4367 16.5167 10.4483 15.2867 10.5033C12.1217 10.6483 10.6483 12.1467 10.5033 15.2867C10.4483 16.5167 10.435 16.885 10.435 20C10.435 23.115 10.4483 23.4833 10.5033 24.715C10.6483 27.8467 12.115 29.3533 15.2867 29.4983C16.515 29.5533 16.885 29.5667 20 29.5667C23.1167 29.5667 23.485 29.555 24.715 29.4983C27.88 29.355 29.3517 27.8517 29.4983 24.715C29.5533 23.485 29.565 23.115 29.565 20C29.565 16.885 29.5533 16.5167 29.4983 15.2867C29.3517 12.1483 27.8767 10.6483 24.715 10.5033ZM20 25.9917C16.6917 25.9917 14.0083 23.31 14.0083 20C14.0083 16.6917 16.6917 14.01 20 14.01C23.3083 14.01 25.9917 16.6917 25.9917 20C25.9917 23.3083 23.3083 25.9917 20 25.9917ZM26.2283 15.1733C25.455 15.1733 24.8283 14.5467 24.8283 13.7733C24.8283 13 25.455 12.3733 26.2283 12.3733C27.0017 12.3733 27.6283 13 27.6283 13.7733C27.6283 14.545 27.0017 15.1733 26.2283 15.1733ZM23.8883 20C23.8883 22.1483 22.1467 23.8883 20 23.8883C17.8533 23.8883 16.1117 22.1483 16.1117 20C16.1117 17.8517 17.8533 16.1117 20 16.1117C22.1467 16.1117 23.8883 17.8517 23.8883 20ZM20 0C8.955 0 0 8.955 0 20C0 31.045 8.955 40 20 40C31.045 40 40 31.045 40 20C40 8.955 31.045 0 20 0ZM31.5967 24.81C31.405 29.0517 29.0433 31.4017 24.8117 31.5967C23.5667 31.6533 23.1683 31.6667 20 31.6667C16.8317 31.6667 16.435 31.6533 15.19 31.5967C10.95 31.4017 8.59833 29.0483 8.40333 24.81C8.34667 23.5667 8.33333 23.1683 8.33333 20C8.33333 16.8317 8.34667 16.435 8.40333 15.19C8.59833 10.95 10.9517 8.59833 15.19 8.405C16.435 8.34667 16.8317 8.33333 20 8.33333C23.1683 8.33333 23.5667 8.34667 24.8117 8.405C29.0533 8.6 31.4067 10.9583 31.5967 15.19C31.6533 16.435 31.6667 16.8317 31.6667 20C31.6667 23.1683 31.6533 23.5667 31.5967 24.81Z"
+                          fill="#404040"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-5 col-xl-5 col-xxl-4">
+                  <h6 class="fw-bold ps-3 ps-lg-5">Quick Links</h6>
+                  <div class="row ps-0 ps-md-4 ps-xl-5 pe-0 pe-md-4">
+                    <div class="col-lg-4 col-xl-6">
+                      <ul class="ps-0 mb-0">
+                        <li class="wow animate__fadeInUp animated">
+                          <a href="">Home</a>
+                        </li>
+                        <li class="wow animate__fadeInUp animated">
+                          <a href="">About Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-8 col-xl-6">
+                      <ul class="ps-0">
+                        <li class="wow animate__fadeInUp animated">
+                          <a href="">Get treatement</a>
+                        </li>
+                        <li class="wow animate__fadeInUp animated">
+                          <a href="">Terms & Conditions</a>
+                        </li>
+                        <li class="wow animate__fadeInUp animated">
+                          <a href="">Privacy Policy</a>
+                        </li>
+                        <li class="wow animate__fadeInUp animated">
+                          <a href=""> Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-xl-3 col-xxl-4 d-flex flex-column align-items-center align-items-md-end"
+                >
+                  <div>
+                    <h6 class="fw-bold wow animate__fadeInUp animated">
+                      How can we help you?
+                    </h6>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-start gap-3 mt-4 wow animate__fadeInUp animated"
+                    >
+                      <img src="assets/icon/email.svg" alt="email_icon" />
+                      <p class="mb-0 text-wrap">info@kraftedcare. com</p>
+                    </div>
+                    <a href="">
+                      <img
+                        src="assets/footer_hippa_log.svg"
+                        class="mt-4 wow animate__fadeInUp animated"
+                        alt="HIPPA"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom_footer text-center py-3">
+            <p class="m-0 small">All Rights Reserved © 2023 Krafted Care</p>
+          </div>
+        </footer>
+      </section>
+      <!-- footer section end -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

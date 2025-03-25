@@ -1,0 +1,470 @@
+@media only screen and (min-width: 1400px) {
+    #hero .navbar-expand-xl .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero .navbar-expand-xl .navbar-brand {
+        display: none;
+    }
+
+    #hero .login_signup_mobile {
+        display: none;
+    }
+
+    #hero .navbar-expand-xl .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #works .work_card .row .work_col .first_work,
+    #works .work_card .row .work_col .second_work {
+        width: 75%;
+        height: 410px;
+    }
+
+    .model-xxl {
+        --bs-modal-width: 1320px !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #works .work_card .row .work_col .second_work {
+        padding: 35px 15px;
+    }
+
+    #works .work_card .row .work_col .first_work {
+        padding: 60px 15px 35px;
+    }
+
+    .stepper__item {
+        width: 60px;
+        height: 60px;
+    }
+
+    .stepper__item h3 {
+        font-size: 1.5rem;
+    }
+
+    .stepper-wrapper .progressbar {
+        height: 6px;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header_logo > .brand_logo {
+        display: none;
+    }
+
+    .hero_navigation {
+        padding-top: 3rem;
+    }
+
+    #hero .navbar-expand-xl .user_log {
+        display: none;
+    }
+
+    #hero .navbar-expand-xl .navbar-brand > img {
+        width: 243px;
+    }
+
+    #hero .navbar {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    #works .work_card .row .work_col .first_work {
+        width: 74%;
+    }
+
+    #works .work_card .row .work_col .second_work {
+        width: 74%;
+    }
+
+    #hero .hero_content .user_guide_btn .btn {
+        width: unset;
+        margin-left: 0 !important;
+    }
+
+    #get_treatment .treatment_content ul {
+        margin-left: 3rem;
+    }
+
+    #works .work_card .row .work_col h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .form_container .form_content .form_content_child {
+        margin: 2rem 4rem;
+    }
+
+    #get_treatment .treatment_btn {
+        left: -255px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .font_res {
+        font-size: 14px;
+    }
+
+    #hero .hero_content {
+        margin: 4rem 1rem;
+        text-align: center;
+    }
+
+    #hero .img-fluid {
+        width: 350px;
+    }
+
+    #works .row {
+        margin: 4rem 9rem;
+    }
+
+    #works .work_card .row .work_col .first_work {
+        width: 77%;
+    }
+
+    #works .work_card .row .work_col.select_custom_bg {
+        background: url('/website/images/work_blue_border_bottom.png') no-repeat bottom;
+        background-size: 100%;
+    }
+
+    #works .work_card .row .work_col .second_work {
+        margin-top: 17px;
+    }
+
+    #works .work_card .row .work_col .second_work > div {
+        top: 0 !important;
+    }
+
+    #get_treatment .treatment_content ul {
+        flex-wrap: wrap;
+    }
+
+    #get_treatment .treatment_content ul li {
+        width: 100%;
+    }
+
+    .form_container .form_content .form_content_child .form_multi_check_box > div .form-check {
+        margin: 0 2rem 2rem 0;
+        min-width: 180px;
+    }
+
+    .stepper__item {
+        width: 50px;
+        height: 50px;
+    }
+
+    .stepper__item h3 {
+        font-size: 1.3rem;
+    }
+
+    .stepper-wrapper .progressbar {
+        height: 6px;
+        width: 92%;
+        top: 25px;
+    }
+
+    .appointment_table {
+        min-width: 800px;
+    }
+
+    .appointment_table_top {
+        overflow-x: scroll;
+    }
+
+    .treatement_Res_view_btn {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact_box {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #hero .hero_content > h1 {
+        font-size: 35px;
+    }
+
+    .contact_box {
+        width: 100% !important;
+    }
+
+    #hero .hero_content > p {
+        font-size: 17px;
+    }
+
+    #hero .hero_content .user_guide_btn .btn {
+        width: 208px;
+    }
+
+    #hero .navbar-expand-xl .navbar-brand > img {
+        width: 185px;
+    }
+
+    #works .row {
+        margin: 1rem 7rem;
+    }
+
+    #footer ul li a {
+        line-height: 28px;
+    }
+
+    .treatement_Res_view {
+        margin: 0 3rem;
+    }
+
+    .form_container .form_content .form_content_child {
+        margin: 0;
+    }
+
+    .pharmacy_container .form_container {
+        padding: 2rem 1rem;
+    }
+
+    .payment_container {
+        padding: 2rem 1rem;
+    }
+
+    .stepper__item {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stepper__item h3 {
+        font-size: 1.2rem;
+    }
+
+    .stepper-wrapper .progressbar {
+        height: 6px;
+        width: 85%;
+        top: 20px;
+        left: 40px;
+    }
+
+    .stepper-wrapper .item__descreption {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .w-full-sm {
+        width: 100% !important;
+    }
+
+    .contact_row .col {
+        height: 547px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #hero .navbar-expand-xl .navbar-brand > img {
+        width: 160px;
+    }
+
+    #hero {
+        background-size: 239px 430px;
+        background-position-y: 45px;
+    }
+
+    .child_heading {
+        font-size: 27px;
+    }
+
+    #works .row {
+        margin: 0;
+    }
+
+    #works .work_card .row .col .second_work {
+        padding: 60px 35px 35px !important;
+        margin-top: 16px !important;
+    }
+
+    .treatement_Res_view {
+        margin: 0;
+    }
+
+    .form_container .form_content .form_content_child .form_multi_check_box > div .form-check {
+        margin: 0 1rem 1rem 0;
+    }
+
+    .brand_logo_form {
+        width: 250px;
+    }
+
+    .stepper__item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .stepper__item h3 {
+        font-size: 0.875rem;
+    }
+
+    .stepper-wrapper .progressbar {
+        top: 15px;
+    }
+
+    .stepper-wrapper .item__descreption {
+        font-size: 10px;
+    }
+
+    #hero .user_guide_responsive > .login_nav {
+        padding: 5px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+
+    #hero .user_guide_responsive > .sign_up_nav {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .brand_logo {
+        width: 232px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .res_text {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #hero .hero_content > h1 {
+        font-size: 19px !important;
+        line-height: 31px;
+    }
+
+    #hero .hero_content {
+        margin: 3rem 1rem !important;
+    }
+
+    #hero .img-fluid {
+        width: 242px !important;
+    }
+
+    #works .work_card .row .work_col p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #works .work_card .row .work_col h4 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #hero .navbar-expand-xl .navbar-brand > img {
+        width: 130px;
+    }
+
+    #works .work_card .row .work_col .first_work {
+        height: 365px;
+    }
+
+    #works .work_col {
+        height: 428px;
+        margin-bottom: 1rem;
+    }
+
+    #works .work_card .row .work_col .second_work {
+        height: 361px;
+    }
+
+    #testimonial .testimonial_child h3 {
+        font-size: 20px;
+        line-height: unset;
+    }
+
+    #testimonial .testimonial_child p {
+        font-size: 13px;
+        line-height: unset;
+    }
+
+    .child_heading {
+        line-height: 35px;
+    }
+
+    .child_heading {
+        font-size: 23px;
+        margin-bottom: 2rem;
+    }
+
+    #testimonial .testimonial_main {
+        margin-top: 1rem;
+    }
+
+    .fs_14 {
+        font-size: 13px;
+    }
+
+    .brand_logo {
+        width: 175px;
+    }
+
+    .wizard_res {
+        width: 20%;
+    }
+
+    .stepper-wrapper .item__descreption {
+        font-size: 8px;
+    }
+
+    .stepper-wrapper .progressbar {
+        left: 25px;
+        top: 13px;
+    }
+
+    /*Prescription Wizard*/
+    /*Stepper*/
+    .prescription-step {
+        min-width: 50px;
+        text-align: center;
+        min-height: 85px;
+    }
+    .prescription-step p {
+        white-space: initial;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #hero .navbar-expand-xl .navbar-brand > img {
+        width: 93px;
+    }
+
+    #hero .hero_content .user_guide_btn .btn {
+        font-size: 15px;
+    }
+
+    #get_treatment h1 {
+        margin: 2rem 0 2rem;
+    }
+
+    #testimonial {
+        margin-top: 2rem;
+    }
+
+    .logout_btn_dropdown > .btn {
+        font-size: 10px;
+    }
+}

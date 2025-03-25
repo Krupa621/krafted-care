@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--    Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <title>Form |</title>
+</head>
+
+<body>
+    <main>
+        <!-- Form section -->
+        <section id="form">
+            <div class="container-fluid ">
+                <div class="container form_container p-3 position-relative">
+                    <div class="bg_set position-absolute"></div>
+
+                    <header class="header_logo d-flex justify-content-center">
+                        <a href="">
+                            <img src="assets/brand_logo.svg" class="brand_logo pt-3 " alt="crafted-brand-logo">
+                        </a>
+                    </header>
+
+                    <!--                stepper start-->
+                    <div class="stepper-wrapper">
+                        <div class="progressbar">
+                            <!-- Give width according to step progress -->
+                            <div style="width: 35%;" class="progress"></div>
+                        </div>
+                        <a href="" class="prescription-step">
+                            <div class="align-column-content--center">
+                                <div class="stepper__item active-stepper__item ">
+                                    <h3 class="content">1</h3>
+                                </div>
+                                <p class="item__descreption">demographic</p>
+                            </div>
+                        </a>
+                        <a href="" class="prescription-step">
+                            <div class="align-column-content--center">
+                                <div class="stepper__item active-stepper__item ">
+                                    <h3 class="content">2</h3>
+                                </div>
+                                <p class="item__descreption">Medical history</p>
+                            </div>
+                        </a>
+                        <a href="" class="prescription-step">
+                            <div class="align-column-content--center">
+                                <div class="stepper__item">
+                                    <h3 class="content">3</h3>
+                                </div>
+                                <p class="item__descreption">Consent</p>
+                            </div>
+                        </a>
+                        <a href="" class="prescription-step">
+                            <div class="align-column-content--center">
+                                <div class="stepper__item">
+                                    <h3 class="content">4</h3>
+                                </div>
+                                <p class="item__descreption">Pharmacy</p>
+                            </div>
+                        </a>
+                        <a href="" class="prescription-step">
+                            <div class="align-column-content--center">
+                                <div class="stepper__item">
+                                    <h3 class="content">5</h3>
+                                </div>
+                                <p class="item__descreption">Payment</p>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                    <div class="form_content  p-2 p-sm-4 mt-5 d-flex justify-content-between flex-column ">
+                        <div class="form_content_child pt-sm-0 pt-3">
+                            <p class="form_top_heading mb-4">Personal Info.</p>
+                            <form action="" class="form_control">
+                                <!-- input first name feild -->
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label input_lable">First
+                                        Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="First Name">
+                                </div>
+
+                                <!-- input select feild -->
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label input_lable ">
+                                        Gender</label>
+                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-lg example"
+                                        id="myControl">
+                                        <option selected class="form-option">--select--</option>
+                                        <option class="form-option" value="1">Male</option>
+                                        <option class="form-option" value="2">Female</option>
+                                    </select>
+                                </div>
+
+                                <!-- input file uplod -->
+                                <div class="mb-3 file_upload">
+                                    <label for="exampleFormControlInput1" class="form-label input_lable ">
+                                        Identification </label>
+                                    <label for="formFile" class="form-label file_upload_box p-2">
+                                        <p class="m-0">
+                                            <svg width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg" class="mb-1">
+                                                <path
+                                                    d="M5.5 16C3.98 16 2.68333 15.4767 1.61 14.43C0.536667 13.3767 0 12.0933 0 10.58C0 9.28 0.39 8.12 1.17 7.1C1.95667 6.08 2.98333 5.43 4.25 5.15C4.67 3.61667 5.50333 2.37667 6.75 1.43C8.00333 0.476667 9.42 0 11 0C12.9533 0 14.6067 0.68 15.96 2.04C17.32 3.39333 18 5.04667 18 7C19.1533 7.13333 20.1067 7.63333 20.86 8.5C21.62 9.35333 22 10.3533 22 11.5C22 12.7533 21.5633 13.8167 20.69 14.69C19.8167 15.5633 18.7533 16 17.5 16H12C11.4533 16 10.9833 15.8033 10.59 15.41C10.1967 15.0233 10 14.5533 10 14V8.85L8.4 10.4L7 9L11 5L15 9L13.6 10.4L12 8.85V14H17.5C18.2 14 18.79 13.7567 19.27 13.27C19.7567 12.79 20 12.2 20 11.5C20 10.8 19.7567 10.21 19.27 9.73C18.79 9.24333 18.2 9 17.5 9H16V7C16 5.62 15.5133 4.44 14.54 3.46C13.5667 2.48667 12.3867 2 11 2C9.62 2 8.44 2.48667 7.46 3.46C6.48667 4.44 6 5.62 6 7H5.5C4.53333 7 3.71 7.34333 3.03 8.03C2.34333 8.71 2 9.53333 2 10.5C2 11.4667 2.34333 12.3 3.03 13C3.71 13.6667 4.53333 14 5.5 14H8V16"
+                                                    fill="#333333" />
+                                            </svg>
+                                            <span class="fst-normal text-dark px-2">Upload
+                                                here</span>(Id should be
+                                            an pdf or jpeg
+                                            format)
+                                            <input class="form-control" hidden type="file" id="formFile">
+                                        </p>
+
+                                    </label>
+                                </div>
+
+                                <!-- input group (Zipcode) -->
+                                <div class="mb-4">
+                                    <label for="exampleFormControlInput1" class="form-label input_lable ">
+                                        Zipcode</label>
+                                    <input type="email" class="form-control mb-3" id="exampleFormControlInput1"
+                                        placeholder="450001(Prefilled )">
+                                    <div class="d-flex flex-wrap flex-md-nowrap gap-3 gap-md-5">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="City : Los Angeles  ">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="State : California">
+                                    </div>
+                                </div>
+
+                                <!-- input group redio button (Yes/no) -->
+                                <div class="mb-3">
+                                    <p class="fst-normal form_topic_heading">Alert and Oriented?</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                    <hr class="m-1">
+                                </div>
+
+                                <!-- input textarea -->
+                                <div class="mb-3">
+                                    <p class="fst-normal form_topic_heading">Tell us your “Past medical History”
+                                    </p>
+                                    <textarea class="form-control py-1 px-3" id="exampleFormControlTextarea1"
+                                        rows="3"></textarea>
+                                </div>
+
+                                <!-- checkbox_grid  (with input feild)-->
+                                <div class="form_multi_check_box gap-4">
+                                    <p class="fst-normal form_topic_heading mb-4">Do you have any allergies to
+                                        medication,
+                                        food, or any other substance?</p>
+                                    <div class="d-flex flex-wrap ">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Hives </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Rash </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Nausea </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Vomiting </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Anaphylaxis </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Itching </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Difficulty breathing </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Other </label>
+                                        </div>
+                                    </div>
+                                    <hr class="m-0">
+                                    <input type="email" class="form-control mt-3" id="exampleFormControlInput1"
+                                        placeholder="Write any other symptoms">
+                                </div>
+
+                                <!-- checkbox_grid  (without input feild)-->
+                                <div class="form_multi_check_box gap-4 mt-5">
+                                    <p class="fst-normal form_topic_heading mb-4">Any underlying medical
+                                        condition?
+                                    </p>
+                                    <div class="d-flex flex-wrap ">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Hives </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Rash </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Nausea </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Vomiting </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Anaphylaxis </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Itching </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Difficulty breathing </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Other </label>
+                                        </div>
+                                    </div>
+                                    <hr class="m-0">
+
+                                </div>
+
+                                <!-- checkbox_grid  ( dependent on yes / no )-->
+                                <div class="form_multi_check_box form_depend_y_n gap-4 mt-5">
+                                    <p class="fst-normal form_topic_heading mb-4">Do you or your sexual
+                                        partner(s)
+                                        have
+                                        the following symptoms?</p>
+
+                                    <div class="form-check form-check-inline m-0">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline mb-4 ">
+                                        <input class="form-check-input " type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+
+                                    <p class="fs_12 mb-3">Please mark or select any current applicable symptoms
+                                        below
+                                    </p>
+
+                                    <div class="d-flex flex-wrap">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Difficulty urinating </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Pain with urination </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Increased frequency </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Sore </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Urgency </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Vaginal Discharge </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Lumps </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Fever </label>
+                                        </div>
+                                    </div>
+
+
+                                    <hr class="m-0">
+
+                                </div>
+
+                                <!-- input group days select redio button (Yes/no) -->
+                                <div class="my-5">
+                                    <p class="fst-normal form_topic_heading">When did the symptoms start to
+                                        appear?
+                                    </p>
+                                    <div class="row mx-1">
+                                        <div class="col-md-3 form-check form-check-inline m-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Last 2
+                                                Days</label>
+                                        </div>
+                                        <div class="col-md-3 form-check form-check-inline m-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Last 7
+                                                Days</label>
+                                        </div>
+                                        <div class="col-md-3 form-check form-check-inline m-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Last 10
+                                                Days</label>
+                                        </div>
+                                        <div class="col-md-3 form-check form-check-inline m-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Last 15
+                                                Days</label>
+                                        </div>
+                                    </div>
+                                    <hr class="m-1">
+                                </div>
+
+                                <!-- input group redio button (Yes/no) -->
+                                <div class="mb-3">
+                                    <p class="fst-normal form_topic_heading">Are the symptoms getting worse?</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                    <textarea class="form-control py-1 px-3 mt-3 mb-3" id="exampleFormControlTextarea1"
+                                        rows="4" style="border: 1px solid rgb(239,239,239)"
+                                        placeholder="Write any other symptoms"></textarea>
+                                    <hr class="m-1">
+                                </div>
+
+                                <!-- input type text redio button (Yes/no) -->
+                                <div class="my-5">
+                                    <p class="fst-normal form_topic_heading">How many sexual partners have you
+                                        had
+                                        in
+                                        the past 3 to 6 months? (optional)</p>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Answer">
+                                </div>
+
+                                <!-- input group redio button (Yes/no) -->
+                                <div class="mb-3 ">
+                                    <p class="fst-normal form_topic_heading">Are you currently pregnant?</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                    <hr class="m-1">
+                                    <p style="font-size: 12px; color: #333333;">Alert *we don't treat
+                                        pregnancy-conditions
+                                        and the
+                                        patient needs to visit nearest
+                                        pregnancy-care facility </p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            By clicking the check box, I acknowledge that all information
+                                            provide
+                                            above
+                                            is accurate and I accept that the request is subject to approval by
+                                            KraftedCare medical team upon review.</label>
+                                    </div>
+                                </div>
+
+                                <!-- Consent section -->
+                                <section id="concent my-5 py-5" style="margin-top: 8rem;">
+                                    <div class="consent_container">
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label fw-semibold " for="flexCheckDefault">
+                                                By clicking the check box, I acknowledge that alternate medicine
+                                                being
+                                                provided in absence of recommended medicine based upon the
+                                                medical
+                                                history provided </label>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label fw-semibold" for="flexCheckDefault">
+                                                By clicking the check box, I acknowledge that alternate medicine
+                                                being
+                                                provided in absence of recommended medicine based upon the
+                                                medical
+                                                history provided </label>
+                                        </div>
+                                        <p class="consent_title mb-4">'Indemnification Clause'</p>
+                                        <div class="form-check mb-5">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label fw-semibold" for="flexCheckDefault">
+                                                By clicking the check box, I acknowledge that alternate medicine
+                                                being
+                                                provided in absence of recommended medicine based upon the
+                                                medical
+                                                history provided </label>
+                                        </div>
+                                        <p class="ps-4 mb-5  mb-5"> I, <span class="fw-semibold">Patient
+                                                Name,</span> agree to
+                                            indemnify, defend,
+                                            protect, and hold
+                                            harmless the
+                                            medical providers employed by KraftedCare; and their respective
+                                            officers,
+                                            directors, employees, stockholders, assigns, successors and
+                                            affiliates
+                                            (Indemnified Parties) from, against and in respect of all
+                                            liabilities,
+                                            losses, claims, damages, judgements, settlement payments,
+                                            deficiencies,
+                                            penalties, fines, interest and costs, expenses suffered, sustained,
+                                            incurred
+                                            or paid by the indemnified parties, in connection with, results from
+                                            or
+                                            arising out of, directly or indirectly, the medical providers
+                                            employed
+                                            by
+                                            KraftedCare; rendering medical care, services, advice, and/or
+                                            treatment,
+                                            my
+                                            failure to disclose all relevant information regarding my medical
+                                            and
+                                            physical condition, acts or omissions, the medical providers
+                                            employed by
+                                            KraftedCare; harm or injury resulting from medical care or
+                                            pharmaceuticals
+                                            provided directly or indirectly by the medical providers employed by
+                                            KraftedCare; I am aware of the potential side effects associated
+                                            with
+                                            gender
+                                            transitioning hormone therapy, accept all the risks involved in
+                                            taking
+                                            the
+                                            medication, and will not seek indemnification or damages from the
+                                            indemnified parties.</p>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label fw-semibold" for="flexCheckDefault">
+                                                By clicking the check box or signing my FULL name below, I
+                                                acknowledge
+                                                that I have received and read a copy of the HIPAA Notice of
+                                                <span class="consent_title">Privacy
+                                                    Practices & Policies</span> from (KraftedCare).</label>
+                                        </div>
+                                        <p class="consent_title mb-4">Consent to “The health care”</p>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label " for="flexCheckDefault">
+                                                By selecting the checkbox, I consent to use a secure video chat,
+                                                call,
+                                                or text for my medical visit via secure video, call, or chat if
+                                                necessary. I understand that the media, link, or software used
+                                                for
+                                                this
+                                                video visit is entirely HIPAA compliant. I understand that
+                                                KraftedCare
+                                                will take all appropriate and available actions to help keep
+                                                these
+                                                visits safe and secure. I release KraftedCare, from any and all
+                                                liability and responsibility associated with any possible and
+                                                accidental
+                                                release of personal health information.</label>
+                                        </div>
+                                        <p class="consent_title mb-4">“Informed Consent”</p>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                By selecting the checkbox, I consent to health care management
+                                                and
+                                                treatment by KraftedCare. I acknowledge that my responsibility
+                                                as a
+                                                patient is to seek the information needed regarding my
+                                                diagnosis,
+                                                management, treatment plan, and medications. I agree to be a
+                                                partner
+                                                in
+                                                my health care and decisions related to my care. I acknowledge
+                                                that
+                                                I
+                                                have received and read a copy of this Privacy Notice. </label>
+                                        </div>
+                                        <p class="consent_title mb-4">“Terms Of Use”</p>
+                                        <div class=" form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I understand that the process can be delayed due to insufficient
+                                                medical
+                                                history
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I Consent that the medicines charges to be paid at the pharmacy
+                                                and
+                                                not
+                                                included in consultation fee
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I Consent on receiving the information about using insurance at
+                                                pharmacy
+                                                for prescription</label>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I Consent on receiving the information about drug cost or
+                                                insurance
+                                                limitations are NOT valid reasons to issue a refund. The patient
+                                                is
+                                                financially responsible for their medical care and prescription
+                                                cost
+                                            </label>
+                                        </div>
+                                        <p class="consent_title mb-4">Privacy Policy</p>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                By clicking the check box or signing my FULL name below, I
+                                                acknowledge
+                                                that I have received and read a copy of the HIPAA Notice of
+                                                Privacy
+                                                Policy from (KraftedCare).</label>
+                                        </div>
+                                        <p class="consent_title mb-4">Refund Policy</p>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Consent to agree that consultation fee is not refundable if the
+                                                doctor
+                                                has sent the prescription to pharmacy or ordered a lab test
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Consent to agree that the consultation fee is not refundable if
+                                                prescription medication does not completely eradicate my
+                                                symptoms or
+                                                cure my condition</label>
+                                        </div>
+
+
+                                    </div>
+                                </section>
+
+                                <!-- Pharmacy Selection section -->
+                                <section id="pharmacy my-5 py-5" style="margin-top: 8rem;">
+                                    <div class="pharmacy_container">
+                                        <p class="consent_title mb-4">Pharmacy Selection</p>
+                                        <div class="form_container">
+                                            <h6 class="">All Pharmacy List</h6>
+                                            <hr class="m-0 mb-4 rounded-pill">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Add
+                                                    Pharmacy
+                                                    Name</label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm pharmacy_container_input"
+                                                    id="exampleFormControlInput1" placeholder="Pharmacy Name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"> Add
+                                                    Phone
+                                                    number(OPtional) </label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm pharmacy_container_input"
+                                                    id="exampleFormControlInput1" placeholder="+01 656-989-223">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"> Add
+                                                    Address
+                                                    1</label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm pharmacy_container_input"
+                                                    id="exampleFormControlInput1" placeholder="Louise)">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Add
+                                                    Address
+                                                    2</label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm pharmacy_container_input"
+                                                    id="exampleFormControlInput1"
+                                                    placeholder="Ohio street 567, California.">
+                                            </div>
+                                            <div class="d-flex flex-md-nowrap flex-wrap  gap-2 gap-md-4">
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">
+                                                        Add
+                                                        Address
+                                                        1</label>
+                                                    <input type="email"
+                                                        class="form-control form-control-sm pharmacy_container_input"
+                                                        id="exampleFormControlInput1" placeholder="Louise)">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Add
+                                                        Address
+                                                        2</label>
+                                                    <input type="email"
+                                                        class="form-control form-control-sm pharmacy_container_input"
+                                                        id="exampleFormControlInput1"
+                                                        placeholder="Ohio street 567, California.">
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"> Add
+                                                    Zipcode</label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm pharmacy_container_input"
+                                                    id="exampleFormControlInput1" placeholder="450001">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Pharmacy Selection section -->
+                                <section id="pharmacy my-5 py-5" style="margin-top: 8rem;">
+                                    <div class="pharmacy_container">
+                                        <p class="consent_title mb-4">Pharmacy Selection</p>
+                                        <div class="form_container">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="consent_title mb-3">Selected Pharmacy</p>
+                                                <p class="consent_title mb-3 fw-light text-decoration-underline fs_15">
+                                                    <a href="">Change
+                                                        Pharmacy</a>
+                                                </p>
+                                            </div>
+                                            <div class="px-3 py-2  pharmacy_data">
+                                                <p class="fs_10">send my RX to this Pharmacy</p>
+                                                <h6 class="mb-3">
+                                                    <svg width="18" height="18" viewBox="0 0 19 19" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_477_2310)">
+                                                            <path
+                                                                d="M9.5 18.4062C14.4188 18.4062 18.4062 14.4188 18.4062 9.5C18.4062 4.58121 14.4188 0.59375 9.5 0.59375C4.58121 0.59375 0.59375 4.58121 0.59375 9.5C0.59375 14.4188 4.58121 18.4062 9.5 18.4062Z"
+                                                                fill="#4BD37B" />
+                                                            <path
+                                                                d="M13.6562 4.15625L7.42188 10.5687L5.34375 8.43125L3.26562 10.5687L7.42188 14.8438L15.7344 6.29375L13.6562 4.15625Z"
+                                                                fill="white" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_477_2310">
+                                                                <rect width="19" height="19" fill="white" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    Pharmacy Name
+                                                </h6>
+                                                <div class="ms-4">
+                                                    <p class="mb-3 fs_14 ">Address 1 : lorem ipsum door set a
+                                                        met
+                                                    </p>
+                                                    <p class="mb-3 fs_14">Address2 : lorem ipsum door set a met
+                                                    </p>
+                                                    <p class="mb-3 fs_14">AZip code :450001 <span class="ms-4">City
+                                                            :
+                                                            Los
+                                                            Angeles</span>
+                                                        <span class="ms-4">state
+                                                            :California</span>
+                                                    </p>
+                                                    <p class="mb-3 fs_14">Phone Number : +01 656-989-223</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- payment Section -->
+                                <section id="payment" style="margin-top: 8rem;">
+                                    <p class="consent_title mb-3">
+                                        <svg width="18" height="19" class="me-2" viewBox="0 0 30 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M23.3333 24.2498C24.1069 24.2498 24.8487 24.5571 25.3957 25.1041C25.9427 25.6511 26.25 26.393 26.25 27.1665C26.25 27.9401 25.9427 28.6819 25.3957 29.2289C24.8487 29.7759 24.1069 30.0832 23.3333 30.0832C22.5598 30.0832 21.8179 29.7759 21.2709 29.2289C20.724 28.6819 20.4167 27.9401 20.4167 27.1665C20.4167 25.5478 21.7146 24.2498 23.3333 24.2498ZM0 0.916504H4.76875L6.13958 3.83317H27.7083C28.0951 3.83317 28.466 3.98682 28.7395 4.26031C29.013 4.5338 29.1667 4.90473 29.1667 5.2915C29.1667 5.53942 29.0937 5.78734 28.9917 6.02067L23.7708 15.4561C23.275 16.3457 22.3125 16.9582 21.2188 16.9582H10.3542L9.04167 19.3353L8.99792 19.5103C8.99792 19.6069 9.03633 19.6997 9.1047 19.7681C9.17307 19.8364 9.26581 19.8748 9.3625 19.8748H26.25V22.7915H8.75C7.97645 22.7915 7.23459 22.4842 6.6876 21.9372C6.14062 21.3902 5.83333 20.6484 5.83333 19.8748C5.83333 19.3644 5.96458 18.8832 6.18333 18.4748L8.16667 14.9019L2.91667 3.83317H0V0.916504ZM8.75 24.2498C9.52355 24.2498 10.2654 24.5571 10.8124 25.1041C11.3594 25.6511 11.6667 26.393 11.6667 27.1665C11.6667 27.9401 11.3594 28.6819 10.8124 29.2289C10.2654 29.7759 9.52355 30.0832 8.75 30.0832C7.97645 30.0832 7.23459 29.7759 6.6876 29.2289C6.14062 28.6819 5.83333 27.9401 5.83333 27.1665C5.83333 25.5478 7.13125 24.2498 8.75 24.2498ZM21.875 14.0415L25.9292 6.74984H7.49583L10.9375 14.0415H21.875Z"
+                                                fill="#006BB3" />
+                                        </svg>
+                                        Pharmacy Selection
+                                    </p>
+                                    <div class="payment_container py-3">
+                                        <div class="p-3 payment_amount">
+                                            <p class="m-0 fs_14">Total Amount</p>
+                                            <p class=" m-0 fs_10">$39.99</p>
+                                        </div>
+                                    </div>
+
+
+                                    <p class="consent_title mb-3 mt-4">
+                                        <svg width="18" height="19" class="me-2" viewBox="0 0 30 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M23.3333 24.2498C24.1069 24.2498 24.8487 24.5571 25.3957 25.1041C25.9427 25.6511 26.25 26.393 26.25 27.1665C26.25 27.9401 25.9427 28.6819 25.3957 29.2289C24.8487 29.7759 24.1069 30.0832 23.3333 30.0832C22.5598 30.0832 21.8179 29.7759 21.2709 29.2289C20.724 28.6819 20.4167 27.9401 20.4167 27.1665C20.4167 25.5478 21.7146 24.2498 23.3333 24.2498ZM0 0.916504H4.76875L6.13958 3.83317H27.7083C28.0951 3.83317 28.466 3.98682 28.7395 4.26031C29.013 4.5338 29.1667 4.90473 29.1667 5.2915C29.1667 5.53942 29.0937 5.78734 28.9917 6.02067L23.7708 15.4561C23.275 16.3457 22.3125 16.9582 21.2188 16.9582H10.3542L9.04167 19.3353L8.99792 19.5103C8.99792 19.6069 9.03633 19.6997 9.1047 19.7681C9.17307 19.8364 9.26581 19.8748 9.3625 19.8748H26.25V22.7915H8.75C7.97645 22.7915 7.23459 22.4842 6.6876 21.9372C6.14062 21.3902 5.83333 20.6484 5.83333 19.8748C5.83333 19.3644 5.96458 18.8832 6.18333 18.4748L8.16667 14.9019L2.91667 3.83317H0V0.916504ZM8.75 24.2498C9.52355 24.2498 10.2654 24.5571 10.8124 25.1041C11.3594 25.6511 11.6667 26.393 11.6667 27.1665C11.6667 27.9401 11.3594 28.6819 10.8124 29.2289C10.2654 29.7759 9.52355 30.0832 8.75 30.0832C7.97645 30.0832 7.23459 29.7759 6.6876 29.2289C6.14062 28.6819 5.83333 27.9401 5.83333 27.1665C5.83333 25.5478 7.13125 24.2498 8.75 24.2498ZM21.875 14.0415L25.9292 6.74984H7.49583L10.9375 14.0415H21.875Z"
+                                                fill="#006BB3" />
+                                        </svg>
+                                        Payment Information
+                                    </p>
+                                    <div class="payment_container">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Credit card
+                                                number</label>
+                                            <input type="email" class="form-control pharmacy_container_input"
+                                                id="exampleFormControlInput1" placeholder="Credit  card number">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Name on
+                                                Credit
+                                                card</label>
+                                            <input type="email"
+                                                class="form-control pharmacy_container_input w-full-sm w-50"
+                                                id="exampleFormControlInput1" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Expiration
+                                                date</label>
+                                            <input type="email"
+                                                class="form-control pharmacy_container_input w-full-sm w-25"
+                                                id="exampleFormControlInput1" placeholder="MM | Year">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">CVV</label>
+                                            <input type="email"
+                                                class="form-control pharmacy_container_input w-full-sm w-25"
+                                                id="exampleFormControlInput1" placeholder="CVV">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <button type="button" class="btn btn-primary mx-auto pay_button px-5">Pay
+                                            $39.99
+                                        </button>
+                                    </div>
+
+                                </section>
+                            </form>
+                        </div>
+                        <div class="d-flex justify-content-between px-5">
+                            <p>
+                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="align-baseline">
+                                    <path d="M14 6.4H2M2 6.4L7.4 1M2 6.4L7.4 11.8" stroke="black" stroke-width="2" />
+                                </svg>
+                                <span class="ps-2"> Back</span>
+                            </p>
+
+                            <p><span class="pe-2">Next</span>
+                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="align-baseline">
+                                    <path d="M0 6.4H12M12 6.4L6.6 1M12 6.4L6.6 11.8" stroke="black" stroke-width="2" />
+                                </svg>
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
